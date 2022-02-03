@@ -1,0 +1,63 @@
+body{
+    background-color: burlywood;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table, tr, td{
+    border: 1px beige;
+    border-collapse: collapse;
+}
+caption{
+    caption-side: bottom;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:100px;
+  background: linear-gradient(to right, rgb(165, 42, 42), burlywood);
+    margin:0;
+    color: blanchedalmond;
+}
+#media{
+  
+}
+h2{
+text-align: center;
+  background-color:  blanchedalmond;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.lpo{
+    color: black;
+    float: right;
+}
+.infoactor{
+  display: flex;
+  flex-direction: row;
+  
+}
+.dropbtn {
+    background-color:brown;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }  
+  .dropdown {
+    position: relative;
+    display: inline_block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(165, 112, 42, 0.836);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: rgb(224, 185, 133)}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: brown;}
